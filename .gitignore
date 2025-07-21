@@ -1,0 +1,19 @@
+# Python specific ignores
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/ # Sometimes virtual environments are named .venv
+
+# Editor/IDE specific files
+.vscode/ # VS Code configuration (optional, but often ignored)
+
+# Other common ignores
+.env
+*.log
+*.sqlite3 # If you have a SQLite database file
+
+# Assuming 'github/' is not essential project code and can be ignored
+# If 'github/' contains actual project code you want to share, DO NOT include this line.
+github/ 
